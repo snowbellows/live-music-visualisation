@@ -54,6 +54,8 @@ public class Visualiser : MonoBehaviour
 
     });
 
+    // Using Selects and then reguritating them into a dictionary like this is almost definitely
+    // not best practice. In my defence this is art and I can do whatever I want
     foreach (var cubeList in cubeList2D)
     {
       foreach (var cube in cubeList)
